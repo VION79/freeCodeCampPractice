@@ -1,7 +1,6 @@
-/*
-const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 
-document.write (myStr); */
+document.write (myStr);
 
 /* const myStr = '<a href="http://www.kmjgmg.com" target="_blank">Link</a>'; */
 
