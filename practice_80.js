@@ -19,4 +19,4 @@ function phoneticLookup(val) {
   
   // Change this value to test
   console.log (phoneticLookup("foxtrot"));
-  document.write (lookup);
+ 
