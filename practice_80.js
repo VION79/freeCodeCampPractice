@@ -1,22 +1,19 @@
-// Setup
-function phoneticLookup(val) {
-    var result = "";
-  
-    // Only change code below this line
+/*Modify the function checkObj to test if an object passed to the function (obj) contains a 
+specific property (checkProp). If the property is found, return that property's value. 
+If not, return "Not Found". */
+
+function checkObj(obj, checkProp) {
+
+// Only change code below this line
     
-    var lookup = {
-      "alpha": "Adams",
-      "bravo": "Boston",
-      "charlie": "Chicago",
-      "delta": "Denver",
-      "echo": "Easy",
-      "foxtrot": "frank"
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+    } 
+  else {
+      return "Not Found";
     };
-    result = lookup[val];
     // Only change code above this line
-    return result;
   }
-  
-  // Change this value to test
-  console.log (phoneticLookup("foxtrot"));
- 
+  // Only change code above this line
+
+console.log (checkObj());
